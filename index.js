@@ -13,4 +13,17 @@ function handleButtonClick() {
 
     dicePlayer1.src = './images/dice' + randomNumber1 +'.png';
     dicePlayer2.src = './images/dice' + randomNumber2 +'.png';
+
+    var heading = document.getElementById('heading');
+
+    if (randomNumber1 === randomNumber2) {
+        heading.innerText = "Draw!!!";
+    } else if (randomNumber1 > randomNumber2) {
+        heading.innerText = "Player One Wins!!!"
+    } else {
+        heading.innerText = "Player Two Wins!!!"
+    }
 }
+
+var rollButton = document.getElementById('btn');
+rollButton.addEventListener('click', handleButtonClick);
