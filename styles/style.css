@@ -16,3 +16,26 @@ h1 {
     width: 150px;
     height: 150px;
 }
+
+.container {
+    display: grid;
+    grid-template-columns: 30rem 30rem;
+    grid-template-rows: 12rem 25rem;
+    gap: 20px 30px;
+    width: 50%;
+    align-self: center;
+    justify-self: center;
+}
+
+.player {
+    align-self: center;
+    font-size: 2rem;
+}
+
+.cube {
+    justify-self: stretch; 
+}
+
+.cube-img {
+    border-radius: 20px;
+}
