@@ -39,3 +39,17 @@ h1 {
 .cube-img {
     border-radius: 20px;
 }
+
+.btn {
+    grid-column: span 2;
+    width: 25%;
+    justify-self: center;
+    border-radius: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: 0;
+    font-size: 2rem;
+    font-family: 'Sofia', cursive;
+    color: #617A55;
+    background-color: #9BA4B5;
+}
