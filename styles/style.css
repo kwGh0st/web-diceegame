@@ -1,49 +1,55 @@
 body {
-    text-align: center;
-    display: grid;
     background-color: #394867;
-    color: #617A55;
-    font-family: 'Sofia', cursive;
+    margin-top: 10%; 
 }
 
 h1 {
-    font-size: 4rem;
-    margin-top: 0;
-    margin-bottom: 0;
+    margin: 30px;
+    font-family: 'Sofia', cursive;
+    text-shadow: 5px 0 #232931;
+    font-size: 3rem;
+    color: #4ECCA3;
 }
 
 .container {
-    display: grid;
-    grid-template-columns: 30rem 30rem;
-    grid-template-rows: 12rem 25rem;
-    gap: 20px 30px;
-    width: 50%;
-    align-self: center;
-    justify-self: center;
-}
-
-.player {
-    align-self: center;
-    font-size: 1.5rem;
+    width: 70%;
+    margin: auto;
+    text-align: center;
 }
 
 .cube {
-    justify-self: stretch; 
+    text-align: center;
+    display: inline-block;
 }
 
-.cube-img {
+img {
     border-radius: 20px;
+    width: 50%;
+}
+
+p {
+    font-size: 2rem;
+    color: #4ECCA3;
+    font-family: 'Indie Flower', cursive;
+}
+
+.button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 3rem;
 }
 
 #btn {
-    grid-column: span 2;
     width: 25%;
-    justify-self: center;
     border-radius: 20px;
     padding-top: 20px;
     padding-bottom: 20px;
     border: 0;
-    font-size: 2rem;
+    font-size: 1.25rem;
     font-family: 'Sofia', cursive;
     color: #617A55;
     background-color: #9BA4B5;
