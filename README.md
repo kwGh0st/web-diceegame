@@ -16,7 +16,7 @@ The game includes the following functionalities:
 3. Compare the numbers on the rolled dice to determine the winner.
 4. The player with the highest number wins the round.
 
-  [Play](https://github.com/kwGh0st/web-diceegame/deployments/github-pages)
+  [Play](https://kwgh0st.github.io/web-diceegame/)
 
 ## Technical Details
 
